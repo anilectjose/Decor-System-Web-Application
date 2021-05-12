@@ -1,0 +1,38 @@
+.card-div-green{
+    width:200px;
+    height:65px;
+    margin: 0 10px 0 10px;
+   background-color: #48DE53 ;
+   border-radius: 8px;
+   color: white;
+   padding: 20px;
+   font-family:verdana;
+}
+#block_container {
+    display: flex;
+    width: 200%;
+
+}
+.common-div{
+    width:700px;
+    margin-left:100px;
+}
+  #survey-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #survey-fields {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-gap: 10px;
+  }
+    input[type=text],[type=password],[type=email],[type=number] {
+    width: 180px;
+    padding: 5px;  
+    border-radius: 10px;
+  }
